@@ -8,5 +8,5 @@ animals(5, 2, 8) ➞ 50
 */
 
 function animals(chickens, cows, pigs) {
-	return chickens*2+(cows+pigs)*4;
+	return chickens * 2 + (cows + pigs) * 4;
 }

@@ -8,5 +8,5 @@ stackBoxes(0) ➞ 0
 */
 
 function stackBoxes(n) {
-	return n*n
+	return n * n
 }

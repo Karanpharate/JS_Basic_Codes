@@ -8,5 +8,5 @@
   */
 
   function divisibleByFive(n) {
-  return n%5===0;
+  return n % 5 === 0;
 }

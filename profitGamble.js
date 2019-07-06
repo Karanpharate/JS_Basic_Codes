@@ -8,5 +8,5 @@ profitableGamble(0.9, 3, 2) ➞ true
 */
 
 function profitableGamble(prob, prize, pay) {
-	return prob*prize > pay;
+	return prob * prize > pay;
 }
