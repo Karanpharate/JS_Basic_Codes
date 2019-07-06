@@ -6,6 +6,4 @@ concatName("John", "Doe") ➞ "Doe, John"
 
 concatName("Mary", "Jane") ➞ "Jane, Mary"
 */
-function concatName(firstName, lastName) {
-    return `${lastName}, ${firstName}`;
-}
+const concatName (firstName, lastName) => `${lastName}, ${firstName}`;

@@ -6,6 +6,4 @@ isEmpty(" ") ➞ false
 
 isEmpty("a") ➞ false
 */
-function isEmpty(s) {
-    return (s.length === 0) ? true : false;
-}
+const isEmpty = (s) => (s.length === 0) ? true : false;

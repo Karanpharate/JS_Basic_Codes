@@ -7,6 +7,4 @@ volumeOfBox({ width: 4, length: 2, height: 2 }) ➞ 16
 volumeOfBox({ width: 2, length: 3, height: 5 }) ➞ 30
 */
 
-function volumeOfBox(sizes) {
-  return sizes.height * sizes.width * sizes.length;
-}
+const volumeOfBox = (sizes) => sizes.height * sizes.width * sizes.length;

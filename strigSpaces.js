@@ -12,6 +12,4 @@ hasSpaces("") ➞ false
 hasSpaces(",./!@#") ➞ false
 
 */
-function hasSpaces(str) {
-    return (str.includes(' ')) ? true : false;
-}
+const hasSpaces = (str) => (str.includes(' ')) ? true : false;

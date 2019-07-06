@@ -8,6 +8,4 @@ getLastItem(["cat", "dog", "duck"]) ➞ "duck"
 getLastItem([true, false, true]) ➞ true
 */
 
-function getLastItem(arr) {
-    return arr.pop();
-}
+const getLastItem = (arr) => arr.pop();

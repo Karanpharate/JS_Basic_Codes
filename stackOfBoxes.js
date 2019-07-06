@@ -7,6 +7,4 @@ stackBoxes(2) ➞ 4
 stackBoxes(0) ➞ 0
 */
 
-function stackBoxes(n) {
-	return n * n
-}
+const stackBoxes = (n) => n * n
