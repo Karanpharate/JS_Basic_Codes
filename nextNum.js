@@ -7,5 +7,5 @@ addition(9) ➞ 10
 addition(-3) ➞ -2
 */
 function addition(num) {
-	return num += 1;
+    return num += 1;
 }

@@ -7,8 +7,7 @@ reverse([9, 9, 2, 3, 4]) ➞ [4, 3, 2, 9, 9]
 reverse([]) ➞ []
 */
 function reverse(arr) {
-    j = 0;
-    let a = [];
+    let j = 0, a = [];
     for (i = arr.length - 1; i >= 0; i--) {
         a[j] = arr[i];
         j++;

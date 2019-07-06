@@ -7,9 +7,5 @@ isEvenOrOdd(146) ➞ "even"
 isEvenOrOdd(19) ➞ "odd"
 */
 function isEvenOrOdd(num) {
-    if (num % 2 === 0) {
-        return "even";
-    } else {
-        return "odd";
-    }
+    return (num % 2 === 0) ? "even" : "odd";
 }

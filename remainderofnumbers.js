@@ -9,6 +9,5 @@ remainder(-9, 45) ➞ -9
 remainder(5, 5) ➞ 0
 */
 function remainder(x, y) {
-    let c = x % y;
-    return c;
+    return x % y;
 }

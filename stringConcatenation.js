@@ -7,5 +7,5 @@ concatName("John", "Doe") ➞ "Doe, John"
 concatName("Mary", "Jane") ➞ "Jane, Mary"
 */
 function concatName(firstName, lastName) {
-    return lastName + ', ' + firstName;
+    return `${lastName}, ${firstName}`;
 }

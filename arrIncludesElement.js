@@ -15,5 +15,4 @@ function check(arr, el) {
         }
     }
     return false;
-
 }

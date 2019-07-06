@@ -9,9 +9,9 @@ addUp(13) ➞ 91
 addUp(600) ➞ 180300
 */
 function addUp(num) {
-  let sum = 0;
-  for (let i = 1; i <= num; i++) {
-    sum += i;
-  }
-  return sum;
+    let sum = 0;
+    for (let i = 1; i <= num; i++) {
+        sum += i;
+    }
+    return sum;
 }

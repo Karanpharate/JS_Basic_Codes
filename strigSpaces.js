@@ -13,9 +13,5 @@ hasSpaces(",./!@#") ➞ false
 
 */
 function hasSpaces(str) {
-    if (str.includes(' ')) {
-        return true;
-    } else {
-        return false;
-    }
+    return (str.includes(' ')) ? true : false;
 }

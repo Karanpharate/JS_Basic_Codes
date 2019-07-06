@@ -7,10 +7,5 @@ isEmpty(" ") ➞ false
 isEmpty("a") ➞ false
 */
 function isEmpty(s) {
-	if(s.length === 0) {
-		 return true;
-		 }
-	else {
-		return false;
-	}
+    return (s.length === 0) ? true : false;
 }

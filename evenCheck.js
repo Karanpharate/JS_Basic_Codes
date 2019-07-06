@@ -12,10 +12,6 @@ checkAllEven([-2, 2, -2, 2]) ➞ true
 
 function checkAllEven(arr) {
     for (i = 0; i < arr.length; i++) {
-        if (arr[i] % 2 === 1) {
-            return false;
-        } else {
-            return true;
-        }
+        return (arr[i] % 2 === 1) ? false : true;
     }
 }

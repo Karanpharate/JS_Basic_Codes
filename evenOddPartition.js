@@ -11,10 +11,8 @@ evenOddPartition([1, 3, 5, 7, 9]) ➞ [[], [1, 3, 5, 7, 9]]
 evenOddPartition([]) ➞ [[], []]
 */
 function evenOddPartition(arr) {
-    let a = [];
-    let b = [];
-    let j = 0;
-    let k = 0;
+    let a = [], b = [], j = 0, k = 0;
+
     for (i = 0; i < arr.length; i++) {
         if (arr[i] % 2 === 0) {
             a[k] = arr[i];
@@ -23,7 +21,6 @@ function evenOddPartition(arr) {
             b[j] = arr[i];
             j++;
         }
-
     }
     let c = [a, b];
     return c;

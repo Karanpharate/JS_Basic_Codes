@@ -10,4 +10,5 @@ triArea(10, 10) ➞ 50
 function triArea(base, height) {
 	return 0.5 * base * height;
 }
-        
+
+    
