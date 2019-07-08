@@ -11,3 +11,4 @@ lessThanOrEqualToZero(1) ➞ false
 */
 
 const lessThanOrEqualToZero = (num) => num <= 0;
+  
