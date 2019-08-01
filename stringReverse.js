@@ -11,8 +11,8 @@ reverse("") ➞ ""
 */
 
 const reverse = (str) => {
-    let a = str.split("");
-    let b = a.reverse();
-    let c = b.join("")
+    let a = str.split(""),
+    b = a.reverse(),
+    c = b.join("");
     return c;
 }

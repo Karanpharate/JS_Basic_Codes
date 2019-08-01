@@ -1,13 +1,8 @@
-let counter = document.querySelector('.counter');
-const addCount = document.querySelector('#addCountBtn');
-const lowerCount = document.querySelector('#lowerCountBtn');
-
-let count = 0;
-
-addCount.addEventListener('click', incrementCounter);
-lowerCount.addEventListener('click', decrementCounter);
-
-function incrementCounter() {
+let counter = document.querySelector('.counter'),
+count = 0;
+const addCount = document.querySelector('#addCountBtn'),
+lowerCount = document.querySelector('#lowerCountBtn'),
+incrementCounter = () => {
 	count++;
 	console.log(count);
 	counter.innerHTML = count;
@@ -16,9 +11,8 @@ function incrementCounter() {
 	} else if (counter.innerHTML === '0') {
 		counter.style.color = 'white';
 	}
-}
-
-function decrementCounter() {
+},
+decrementCounter = () => {
 	count--;
 	counter.innerHTML = count;
 	if (counter.innerHTML < '0') {
@@ -26,4 +20,6 @@ function decrementCounter() {
 	} else if (counter.innerHTML === '0') {
 		counter.style.color = 'white';
 	}
-}
+};
+addCount.addEventListener('click', incrementCounter);
+lowerCount.addEventListener('click', decrementCounter);

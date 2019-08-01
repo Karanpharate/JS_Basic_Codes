@@ -14,10 +14,10 @@ amplify(25) ➞ [1, 2, 3, 40, 5, 6, 7, 80, 9, 10, 11, 120, 13, 14, 15, 160, 17, 
 const amplify = (num) => {
 	var a = [];
 	for(var i = 1; i <= num; i++){
-		if(i % 4 == 0){
+		if (i % 4 == 0){
 
 			a.push(i*10);
-		}else{
+		} else {
 			a.push(i);
 		}
 	}

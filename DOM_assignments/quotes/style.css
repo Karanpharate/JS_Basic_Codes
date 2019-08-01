@@ -27,6 +27,7 @@ body {
 	border-radius: 7px;
 	cursor: pointer;
 	outline: none;
+	text-transform: capitalize;
 }
 
 #quoteBtn:hover {
