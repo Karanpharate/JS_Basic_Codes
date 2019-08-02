@@ -11,9 +11,9 @@ numArgs(true, false) ➞ 2
 numArgs({}) ➞ 1
 */
 
-function numArgs() {
-    count = 0;
-    for (let i = 0; i < arguments.length; i++) {
+const numArgs = () => {
+    let count = 0, i;
+    for (i = 0; i < arguments.length; i++) {
         count += 1;
     }
     return count;

@@ -10,7 +10,8 @@ checkAllEven([-2, 2, -2, 2]) ➞ true
 
 */
 
-function checkAllEven(arr) {
+const checkAllEven = (arr) => {
+  let i;
     for (i = 0; i < arr.length; i++) {
         return (arr[i] % 2 === 1) ? false : true;
     }

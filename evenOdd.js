@@ -6,6 +6,4 @@ isEvenOrOdd(146) ➞ "even"
 
 isEvenOrOdd(19) ➞ "odd"
 */
-function isEvenOrOdd(num) {
-    return (num % 2 === 0) ? "even" : "odd";
-}
+const isEvenOrOdd = (num) => (num % 2 === 0) ? "even" : "odd";

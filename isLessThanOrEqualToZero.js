@@ -10,6 +10,5 @@ lessThanOrEqualToZero(-2) ➞ true
 lessThanOrEqualToZero(1) ➞ false
 */
 
-function lessThanOrEqualToZero(num) {
-  return num <= 0;
-}
+const lessThanOrEqualToZero = (num) => num <= 0;
+  

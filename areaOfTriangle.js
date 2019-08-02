@@ -7,8 +7,4 @@ triArea(7, 4) ➞ 14
 triArea(10, 10) ➞ 50
 */
 
-function triArea(base, height) {
-	return 0.5 * base * height;
-}
-
-    
+const triArea = (base, height) => 0.5 * base * height;

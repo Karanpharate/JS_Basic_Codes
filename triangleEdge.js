@@ -7,6 +7,4 @@ nextEdge(5, 7) ➞ 11
 nextEdge(9, 2) ➞ 10
 */
 
-function nextEdge(side1, side2) {
-    return side1 + side2 - 1;
-}
+const nextEdge = (side1, side2) => side1 + side2 - 1;

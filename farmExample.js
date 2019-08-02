@@ -7,6 +7,4 @@ animals(1, 2, 3) ➞ 22
 animals(5, 2, 8) ➞ 50
 */
 
-function animals(chickens, cows, pigs) {
-	return chickens * 2 + (cows + pigs) * 4;
-}
+const animals = (chickens, cows, pigs) => chickens * 2 + (cows + pigs) * 4;

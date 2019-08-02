@@ -7,6 +7,4 @@ profitableGamble(0.9, 1, 2) ➞ false
 profitableGamble(0.9, 3, 2) ➞ true
 */
 
-function profitableGamble(prob, prize, pay) {
-	return prob * prize > pay;
-}
+const profitableGamble = (prob, prize, pay) => prob * prize > pay;

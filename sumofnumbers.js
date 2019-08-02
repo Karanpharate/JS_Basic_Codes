@@ -6,6 +6,4 @@ addition(-3, -6) ➞ -9
 
 
 */
-function addition(a, b) {
-    return a + b;
-}
+const addition = (a, b) => a + b;

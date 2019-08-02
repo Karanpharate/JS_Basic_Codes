@@ -7,7 +7,4 @@ concat([7, 8], [10, 9, 1, 1, 2]) ➞ [7, 8, 10, 9, 1, 1, 2]
 concat([4, 5, 1], [3, 3, 3, 3, 3]) ➞ [4, 5, 1, 3, 3, 3, 3, 3]
 
 */
-function concat(arr1, arr2) {
-    let c = arr1.concat(arr2);
-    return c;
-}
+const concat = (arr1, arr2) => arr1.concat(arr2);

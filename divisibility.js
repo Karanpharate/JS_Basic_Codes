@@ -7,6 +7,4 @@
   divisibleByFive(37) ➞ false
   */
 
-  function divisibleByFive(n) {
-  return n % 5 === 0;
-}
+  const divisibleByFive = (n) => n % 5 === 0;
